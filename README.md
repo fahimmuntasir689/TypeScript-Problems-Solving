@@ -25,6 +25,11 @@ TypeScript is a strongly typed programming language that builds on JavaScript.Me
 
 
 
+## Explain the difference between any, unknown, and never types in TypeScript.
+
+
+
+
 
 
 
