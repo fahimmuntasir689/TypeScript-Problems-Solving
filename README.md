@@ -27,6 +27,42 @@ TypeScript is a strongly typed programming language that builds on JavaScript.Me
 
 ## Explain the difference between any, unknown, and never types in TypeScript.
 
+There are three special types in TypeScript.These are any , unknown and never.They are used sometimes for special cases.The differences between them are being explained below.
+
+
+-- Any : Any is a type that disables type checking and allows all types to be used in TypeScript.
+
+For example - let person : any;
+
+let person = 'Jamal' ; 
+
+let person = 10 ; // won't throw any error.As we can assign any type we want.
+
+
+-- Unknown : Unknown is best used when we don't know the type of data being typed.To add a type later, we'll need to cast it.
+
+For example - let data : unknown = 'ABC'
+
+if (typeof data === "string") {
+  console.log(`The given data is ${data}`); // we have to check its type as it is Unknown type.
+}
+
+
+-- Never : Never always throws an error whenever it is defined.
+
+For exmaple -
+
+let logic : never = true; // Error: Type 'boolean' is not assignable to type 'never'.
+
+let x: never = 'XYZ'; // Error: Type 'String' is not assignable to type 'never'.
+
+
+
+
+
+
+
+
 
 
 
