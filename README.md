@@ -44,7 +44,7 @@ There are three special types in TypeScript.These are any , unknown and never.Th
    For example - let data : unknown = 'ABC'
 
    if (typeof data === "string") {
-      console.log(`The given data is ${data}`); // we have to check its type as it is Unknown type.
+      console.log('The given data is a string'); // we have to check its type as it is Unknown type.
      }
 
 
