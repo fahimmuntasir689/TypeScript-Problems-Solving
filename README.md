@@ -8,20 +8,19 @@ TypeScript is a strongly typed programming language that builds on JavaScript.Me
 -- Typing : In javascript we don't have to use type or no need to mention type.But in TypeScript we have to use type strictly.For this TypeScript can prevent incorrect usage before it becomes a runtime bug.
 
 
--- Code Completion & IntelliSense : In javascript we have Limited autocompletion and no validation on parameter types.On the contrary TypeScript autocompletes on function names, parameters, interfaces, enums etc.It helps us to write faster with fewer mistakes which 
-   makes us more productive.
+-- Code Completion and IntelliSense : In javascript we have Limited autocompletion and no validation.On the contrary TypeScript autocompletes on function names, parameters, interfaces, enums etc.It helps us to write faster with fewer mistakes which makes us more productive.
 
 
--- Scalability : TypeScript scales with our project enforcing structure and safety.On the otherside JavaScript works fine for small scripts but becomes messy and seems unorganized since the codebase grows.
+-- Scalability : TypeScript scales with our project ensuring structure and safety.On the otherside JavaScript works fine for small codes but becomes unorganized when the codebase grows.
 
 
--- Refactoring : We can confidently rename or restructure code knowing TypeScript will catch broken links.For example Updating a function signature.TypeScript will tell us where all calls are now invalid.
+-- Refactoring : We can easily rename or restructure code knowing TypeScript will catch the broken portions.For example Updating a function signature.TypeScript will tell us where all calls are now invalid.
 
 
--- Easier understanding for New Developers : New devs can understand any specific project's code faster.As Types and interfaces make it clear what each function and object expects.Less need to dig into every file to guess what’s going on.In this way it helps developers to maintain projects.
+-- Easier understanding for New Developers : New devs can understand any specific project's code faster.As Types and interfaces make it clear what each function and object expects.Less need to go into every file to assume what’s going on.In this way it helps developers to maintain projects.
 
 
--- Automatic Documentation : With strong typing much of our code becomes self-explanatory.No comments are needed as the types tell the contexts.This leads to cleaner, more maintainable code.It also helps us to maintain projects.
+-- Automatic Documentation : With strong typing most of our codes becomes self-explanatory.No comments are needed as the types tell the contexts.This leads to cleaner and more maintainable code.It also helps us to maintain projects.
 
 
 
@@ -30,7 +29,7 @@ TypeScript is a strongly typed programming language that builds on JavaScript.Me
 There are three special types in TypeScript.These are any , unknown and never.They are used sometimes for special cases.The differences between them are being explained below.
 
 
--- Any : Any is a type that disables type checking and allows all types to be used in TypeScript.
+-- Any : Any is a type that disables type checking.It allows us to use all types in TypeScript.
 
    For example - let person : any;
 
@@ -39,7 +38,7 @@ There are three special types in TypeScript.These are any , unknown and never.Th
    let person = 10 ; // won't throw any error.As we can assign any type we want.
 
 
--- Unknown : Unknown is best used when we don't know the type of data being typed.To add a type later, we'll need to cast it.
+-- Unknown : Unknown is best used when we don't know the type of data.To add a type later, we'll need to test it.
 
    For example - let data : unknown = 'ABC'
 
