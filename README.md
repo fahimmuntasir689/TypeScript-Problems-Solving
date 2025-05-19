@@ -11,7 +11,26 @@ TypeScript is a strongly typed programming language that builds on JavaScript.Me
 
 
 
-3.Scalability ; TypeScript scales with your project, enforcing structure and safety.On the otherside JavaScript works fine for small scripts but becomes messy and seems unorganaized as the codebase grows.
+3.Scalability : TypeScript scales with your project, enforcing structure and safety.On the otherside JavaScript works fine for small scripts but becomes messy and seems unorganaized as the codebase grows.
+
+
+Refactoring : We can confidently rename or restructure code knowing TypeScript will catch broken links.For example Updating a function signature , TypeScript will tell us where all calls are now invalid.
+
+
+Easier understanding for New Developers : New devs can understand your code faster.As Types and interfaces make it clear what each function and object expects.Less need to dig into every file to guess what’s going on.
+
+
+Automatic Documentation : With strong typing, much of your code becomes self-explanatory.No comments needed — the types tell the story. This leads to cleaner, more maintainable code.
+
+
+
+
+
+
+
+
+
+
 
 
 
